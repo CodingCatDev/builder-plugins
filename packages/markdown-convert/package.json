@@ -3,6 +3,9 @@
   "version": "0.0.3",
   "description": "",
   "keywords": [],
+  "publishConfig": {
+    "access": "public"
+  },
   "entry": "plugin",
   "output": "plugin.system.js",
   "main": "dist/plugin.system.js",
@@ -130,5 +133,6 @@
     "rehype-remark": "9.0.0",
     "remark": "14.0.1",
     "remark-html": "15.0.0"
-  }
+  },
+  "gitHead": "4e51db6749860540553b6ca5ff468b23d4191388"
 }
