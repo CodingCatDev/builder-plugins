@@ -1,0 +1,26 @@
+{
+  "name": "codingcatdev-builder-plugins",
+  "version": "0.0.1",
+  "description": "The plugins within the [builder](https://github.com/builderio/builder) package are well maintained and have an entire team behind them. If you like one of these enough to promote to that status I would add a PR over there and let me know if it gets merged and I will remove it from here.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingCatDev/builder-plugins.git"
+  },
+  "keywords": [
+    "builder.io",
+    "plugins"
+  ],
+  "author": "Alex Patterson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodingCatDev/builder-plugins/issues"
+  },
+  "homepage": "https://github.com/CodingCatDev/builder-plugins#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
