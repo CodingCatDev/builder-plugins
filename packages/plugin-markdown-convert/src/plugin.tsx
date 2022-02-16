@@ -108,21 +108,21 @@ function MarkdownEditor(props: TextProps) {
         <DialogContent dividers>
           <AppBar position="static">
             <Tabs value={value} onChange={handleChange} aria-label="simple tabs example">
-              <Tab label="Rich Text" {...a11yProps(0)} />
-              <Tab label="Markdown" {...a11yProps(1)} />
+              <Tab label="Markdown" {...a11yProps(0)} />
+              <Tab label="Rich Text" {...a11yProps(1)} />
             </Tabs>
           </AppBar>
           <TabPanel value={value} index={0}>
-            <ReactQuill
+          <MDEditor value={markdown} onChange={toMarkdown} />
+          </TabPanel>
+          <TabPanel value={value} index={1}>
+          <ReactQuill
               theme="snow"
               value={props.value}
               onChange={props.onChange}
               modules={modules}
               formats={formats}
             />
-          </TabPanel>
-          <TabPanel value={value} index={1}>
-            <MDEditor value={markdown} onChange={toMarkdown} />
           </TabPanel>
         </DialogContent>
       </Dialog>

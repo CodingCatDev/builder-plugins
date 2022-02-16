@@ -1,5 +1,5 @@
 import 'jest';
-import CloudinaryImageEditor from '../src/builder-plugin-cloudinary';
+import CloudinaryImageEditor from '../src/plugin-cloudinary-nextjs-image';
 
 /**
  * Dummy test
